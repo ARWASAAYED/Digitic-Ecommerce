@@ -1,0 +1,39 @@
+:root{
+  --color-212529: #212529;
+  --color-ffd333:rgba(94, 8, 8, 0.993);
+  --color-47ad24:#47ad24;
+  --color-e52e2e:#e52e2e;
+  --color-828599:#828599;
+  --color-3d464d:#ed464d;
+--color-c3d4da:#c3d4da;
+}
+
+body{
+  font-family: "Roboto", serif;
+}
+.green{
+  color: var(--color-47ad24);
+  font-size: 14px;
+}
+.red{
+  color: var(--color-e52e2e);
+  font-size: 14px;
+}
+.form-control{
+  box-shadow: none;
+  border-color:var(--color-c3d4da)
+}
+.title{
+  font:28px;
+  font-family: "Roboto" !important;
+}
+.sub-title{
+  font:24px;
+  font-family: Roboto !important;
+}
+.desc{
+font:24px;
+font-family:  Roboto !important;
+color:var(--color-828599)
+}
+
